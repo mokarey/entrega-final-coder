@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0%;
+   padding: 0%;
+}
+
+.carrito{
+   background-color: rgb(146, 146, 146);
+   border-bottom: solid rgb(234, 0, 255) 2px;
+   border-top: solid rgb(234, 0, 255) 2px;
+}
+
+.modalImg{
+   width: 70px;
+   margin-right: 10px;
+}
+
+.borrar{
+   margin-left: 5px;
+}
+
+.agregado{
+   margin: 0px;
+}
+
+.icon{
+   text-align: end;
+   display: grid;
+  
+ 
+}
+
+i {
+   margin: 5px;
+   padding: 5px;
+   font-size: 35px;
+   color: rgb(0, 0, 0) ;
+  
+}
+
+.tarjeta{
+   padding: 20px;
+   margin: 0px 0px 20px 0px;
+   align-items: center;
+   background-image: url(../Imagenes/backgroundSpace.png);
+}
+
+.precios{
+   padding: 5px;
+   margin-top: 5px;
+}
+.botones{
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+.trailer{
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.pie-pagina{
+   width: 100%;
+   background-color: rgb(11, 6, 15);
+}
+
+.pie-pagina .grupo-1{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 50px;
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+   width: 300px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+   color: white;
+   margin-bottom: 25px;
+   font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+   color: rgb(218, 218, 218);
+   margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 a{
+   display: inline-block;
+   text-decoration: none;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+   color: #fff;
+   margin-right: 10px;
+   background-color: rgb(21, 11, 29);
+   text-align: center;
+   transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 a:hover{
+   color: blueviolet;
+}
+
+.pie-pagina .grupo-2 {
+   background-color: rgb(21, 11, 29);
+   padding: 15px 10px;
+   text-align: center;
+   color: #fff;
+}
+
+.pie-pagina .grupo-2 small{
+   font-size: 15px;
+}
+
+.imgI:hover{
+   box-shadow: 15px 15px 20px rgba(0,0,0,0.2);
+   transform: translateY(-3%);
+   
+}
+.img50{
+   background-color: rgb(187, 3, 3);
+  }
+  
+  .img50:hover{
+     background-color: rgb(134, 0, 0);
+    }
+
+.imgT{
+   background-color: yellow;
+}
+
+.imgT:hover{
+   background-color:rgb(255, 196, 0);
+}
+
+body{
+   color: black;
+   background-color: rgb(29, 52, 129);
+}
+
+.h1C{
+   text-align: center;
+   background: linear-gradient(to left top, rgb(74, 152, 255), rgb(134, 59, 255), rgb(0, 217, 255));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   animation: cyber 3s linear infinite;
+   background-size: 200% 200%;
+   font-family: 'Kanit', sans-serif;;
+ }
+
+ @keyframes cyber {
+   from {
+     background-position: 0 0;
+   }
+   to {
+     background-position: 100% 100%;
+   }
+}
+
+.sectionBack{
+   background-image: url(../Imagenes/backgroundSpace.png);
+   background-repeat: no-repeat;
+       background-position: bottom;
+       background-size: cover;
+      text-align: center;
+       
+}
+
+
+h1{
+   margin-bottom: 10px;
+   font-size: 7rem
+}
+
+ h2{
+   margin: 10px;
+ }
+
+.navBar{
+   color: rgba(202, 200, 200, 0.993);
+}
+
+.navBorder{
+   border-bottom: solid rgb(196, 3, 255) 3px;
+   border-top: solid  rgb(196, 3, 255) 3px;
+}
+
+ .secBorder{
+   border-bottom: solid rgb(196, 3, 255) 3px;
+   border-top: solid rgb(196, 3, 255) 3px;
+ }
+
+ .containerI{
+   background-image: url(../Imagenes/Rebajas.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+/*-----------Tendencias-----------*/
+
+.star{
+   color: yellow;
+}
+/*-----------Ofertas-----------*/
+.winter{
+   color: rgb(0, 217, 255);
+}
+
+/*----------MEDIA QUERIES----------*/
+ /*----------MOBILE----------*/
+@media (max-width:480px){
+   header{
+      background-image: url(../Imagenes/Portada1.png);
+      background-repeat: no-repeat;
+       background-position: bottom;
+       background-size: cover;
+       text-align: center;
+       }
+    
+ img{
+    width: 100%;
+ }
+
+ .imgI{
+   width: 300px;
+}
+
+.h2D{
+   font-size: 2rem;
+   color: rgb(0, 81, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+.h2J{
+   font-size: 2rem;
+   color: rgb(0, 204, 255);
+   text-align: center;
+   padding: 10px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+   font-size: bold;
+}
+
+.titulos{
+   color: rgb(102, 148, 247);
+   text-shadow: 1px 2px black;
+   font-family: 'Josefin Sans';
+}
+
+.cajaTextoI{
+   font-size: 15px;
+   color: #fff;
+ }
+
+ .div{
+    display: flex;
+    flex-direction: column;
+ }
+ a p{
+    font-size: 12px;
+    padding: 5px;
+ }
+ h1{
+   margin-bottom: 10px;
+   font-size: 3rem;
+}
+ 
+footer{
+   margin-bottom: 0%;
+}
+.cajaTexto{
+   margin-top: 10px;
+   
+ }
+
+ .pie-pagina .grupo-1{
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 30px;
+   width: 90%;
+   padding: 35px 0px;
+}
+
+/*-----------Tendencias-----------*/
+
+.h2T{
+   font-size: 2rem;
+   color: rgb(234, 0, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+.h3T{
+   font-family: 'bebas neue';
+   font-size: 2rem;
+   margin: 10px;
+   padding: 10px 0px;
+   color: rgb(251, 255, 0);
+   text-shadow:1px 1px 0 rgb(0, 0, 0) ;
+}
+
+.cardPad{
+   padding: 0px 0px 20px 0px;
+}
+/*-----------OFERTAS-----------*/
+.h2O{
+   font-size: 2rem;
+   color: rgb(253, 30, 0);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+.h1off{
+   color: rgb(255, 0, 0);
+   font-family: 'Kanit';
+   text-shadow: 4px 4px 0 black;
+ }
+
+ .h3off{
+   font-family: 'bebas neue';
+   font-size: 2rem;
+   margin: 10px;
+   padding: 10px 0px;
+   color: rgb(255, 0, 0);
+   text-shadow:1px 1px 0 rgb(0, 0, 0) ;
+}
+.h2I{
+   font-size: 2rem;
+   color: rgb(0, 217, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+
+.imgII{
+ background-image: url(../Imagenes/Rebajas.png);
+
+}
+
+.imgII a{
+   color: rgb(173, 0, 121);
+}
+
+.cardMarg{
+   margin: 0px 0px 10px 0px;
+}
+/*-----------Soporte-----------*/
+.marg{
+margin: 0px 100px 0px 100px;
+
+}
+.h2O{
+   font-size: 2rem;
+   color: rgb(0, 118, 253);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+}
+/*----------TABLET----------*/
+@media (min-width:481px) and (max-width:899px){
+header{
+      background-image: url(../Imagenes/Portada1.png);
+      background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       text-align: center;
+       
+}
+    
+h1{
+         margin-bottom: 10px;
+         font-size: 4rem;
+}
+
+a p{
+         font-size: 13px;
+         padding: 5px;
+}
+
+img{
+       width: 200px;
+}
+.imgI{
+        width: 300px;
+}
+
+.h2D{
+      font-size: 3rem;
+      color: rgb(0, 81, 255);
+      text-align: center;
+      padding: 5px;
+      text-shadow: 4px 4px 0 black;
+      font-family: 'kanit';
+   }
+   
+.h2J{
+      font-size: 3rem;
+      color: rgb(0, 204, 255);
+      text-align: center;
+      padding: 10px;
+      text-shadow: 4px 4px 0 black; 
+      font-family: 'kanit';
+}
+
+.titulos{
+   color: rgb(127, 140, 255);
+   text-shadow: 2px 2px 0 black; 
+   font-size: 20px;
+   font-family: 'josefin sans';
+}
+
+
+.imgC{
+      width:75%;
+}
+
+.cardC{
+      width: 30rem;
+}
+
+.cajaTexto{
+   margin-top: 10px;
+ }
+
+.cajaTextoI{
+   text-align: center;
+   margin: 10px;
+   color: #fff;
+ }
+  
+.pie-pagina .grupo-1{
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 30px;
+   width: 90%;
+   padding: 45px 0px;
+}
+/*-----------Tendencias-----------*/
+
+.h2T{
+   font-size: 3rem;
+   color: rgb(234, 0, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+.h3T{
+   font-family: 'bebas neue';
+   font-size: 2rem;
+   margin: 10px;
+   padding: 10px 0px;
+   color: rgb(251, 255, 0);
+   text-shadow:1px 1px 0 rgb(0, 0, 0) ;
+}
+/*-----------OFERTAS-----------*/
+.h2O{
+   font-size: 3rem;
+   color: rgb(253, 30, 0);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+.h1off{
+   color: rgb(255, 0, 0);
+   font-family: 'Kanit';
+   text-shadow: 4px 4px 0 black;
+ }
+
+ .h3off{
+   font-family: 'bebas neue';
+   font-size: 2rem;
+   margin: 10px;
+   padding: 10px 0px;
+   color: rgb(251, 255, 0);
+   text-shadow:1px 1px 0 rgb(0, 0, 0) ;
+}
+.h2I{
+   font-size: 3rem;
+   color: rgb(0, 217, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+.imgII{
+ background-image: url(../Imagenes/Rebajas.png);
+
+}
+
+.imgII a{
+   color: rgb(173, 0, 121);
+}
+
+.cardMarg{
+   margin: 0px 0px 20px 0px;
+}
+
+/*-----------SOPORTE-------------*/
+.h2O{
+   font-size: 3rem;
+   color: rgb(0, 118, 253);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+}
+/*----------DESKTOP----------*/
+@media (min-width:900px) and (max-width:1980px){
+
+header{
+      background-image: url(../Imagenes/Portada1.png);
+      background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       text-align: center;
+       
+ }
+a p{
+         font-size: 15px;
+         padding: 5px;
+}
+
+
+img{
+       width: 250px;
+}
+    
+.imgI{
+      width: 300px;
+}
+
+h1{
+   font-size: 6rem;
+}
+.h2D{
+   font-size: 4rem;
+   color: rgb(0, 81, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 4px 4px 0 black;
+   font-family: 'kanit';
+}
+
+.h2J{
+   font-size: 3rem;
+   color: rgb(0, 204, 255);
+   text-align: center;
+   padding: 5px 10px 10px 10px;
+   text-shadow: 4px 4px 0 black;
+   font-family: 'kanit';
+}
+.titulos{
+   color: rgb(127, 140, 255);
+   text-shadow: 2px 2px 0 black; 
+   font-size: 25px;
+   font-family: 'josefin sans';
+}
+
+.imgC{
+      width: 60%;
+      height: 50%;
+       }
+
+.carusel{
+      display: flex;
+    }
+
+    .cajaTextoI{
+      text-align: center;
+      color: #fff;
+      padding: 10px;
+   }
+
+    
+   
+.cajaTexto{
+      margin-top: 10px;
+    }
+
+.pie-pagina .grupo-1{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 50px;
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   padding: 45px 0px;
+}
+
+
+.h2T{
+   font-size: 4rem;
+   color: rgb(234, 0, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+.h3T{
+   font-family: 'bebas neue';
+   font-size: 3rem;
+   margin: 10px;
+   padding: 10px 0px;
+   color: rgb(251, 255, 0);
+   text-shadow:1px 1px 0 rgb(0, 0, 0) ;
+}
+/*-----------OFERTAS-----------*/
+.h2I{
+   font-size: 4rem;
+   color: rgb(234, 0, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+
+.h2O{
+   font-size: 3rem;
+   color: rgb(253, 30, 0);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+.h1off{
+   color: rgb(255, 0, 0);
+   font-family: 'Kanit';
+   text-shadow: 4px 4px 0 black;
+ }
+
+ .h3off{
+   font-family: 'bebas neue';
+   font-size: 3rem;
+   margin: 10px;
+   padding: 10px 0px;
+   color: rgb(255, 0, 0);
+   text-shadow:1px 1px 0 rgb(0, 0, 0) ;
+}
+.h2I{
+   font-size: 3rem;
+   color: rgb(0, 217, 255);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+.imgII{
+ background-image: url(../Imagenes/Rebajas.png);
+
+}
+
+.imgII a{
+   color: rgb(173, 0, 121);
+}
+
+.cardMarg{
+   margin: 0px 0px 20px 0px;
+}
+/*-----------SOPORTE-------------*/
+.h2O{
+   font-size: 3rem;
+   color: rgb(0, 118, 253);
+   text-align: center;
+   padding: 5px;
+   text-shadow: 3px 1px 0 black;
+   font-family: 'kanit';
+}
+}
